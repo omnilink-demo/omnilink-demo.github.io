@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+
+.title:hover {
+  color: rgb(238, 191, 50);
+}
+
+.login {
+  width: 65%;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  background: rgb(238, 191, 50);
+  border: 1px solid rgb(238, 191, 50);
+  border-radius: 10px;
+  padding: 12px 12px;
+}
+
+.forgot-text {
+  text-decoration: none;
+  color: #000;
+}
+
+.center {
+  text-align: center;
+}
+
+.login-form .forgot-text {
+  float: right;
+  margin-right: 25%;
+}
+
+input[type=text], select {
+  width: 65%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login-form {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.login-account {
+  font-weight: bolder;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.subtext {
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.sup {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.sup span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.move {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.other-signup {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.button img {
+  width: 50px;
+  height: auto;
+  display: inline;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 2px #ccc;
+  border-radius: 10px;
+  padding: 35px 60px 35px 60px;
+}
+
+.topnav a {
+  float: left;
+  color: rgb(252, 242, 200);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav {
+  border: 1px solid rgb(252, 242, 200);
+  background-color: rgb(238, 191, 50);
+  overflow: hidden;
+}
+
+.topnav a:hover {
+  background-color: rgb(252, 242, 200);
+  color: #000;
+}
